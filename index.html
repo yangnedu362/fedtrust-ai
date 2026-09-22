@@ -1,94 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="FedTrust.ai: Research on Federated Learning and Trustworthy AI, empowering resilient and secure cyber-physical energy systems.">
-  <title>FedTrust.ai - Federated Learning & Trustworthy AI</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f5f7fb;
-      color: #222;
-    }
-    header {
-      background-color: #0b1f3a;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    nav {
-      text-align: center;
-      margin-top: 1rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      color: #0b1f3a;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    section.hero {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    section.hero h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    section.hero p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .cta-button {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #1a73e8;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 600;
-    }
-    footer {
-      margin-top: 3rem;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FedTrust.ai — Yang Li’s academic research portal for trustworthy federated AI: privacy-preserving collaboration, attack detection, robust learning and resilient energy systems.">
+  <meta name="theme-color" content="#102e3b">
+  <meta property="og:title" content="FedTrust.ai — Trustworthy Federated AI for Resilient Energy Systems">
+  <meta property="og:description" content="Research connecting privacy-preserving collaboration, robust learning and cyber-physical energy-system resilience. Led by Prof. Yang Li.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fedtrust.ai/">
+  <link rel="canonical" href="https://fedtrust.ai/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>FedTrust.ai — Trustworthy Federated AI for Resilient Energy Systems</title>
 </head>
 <body>
-  <header>
-    <h1>FedTrust.ai</h1>
-    <p>Federated Learning with Verifiable Privacy and Trustworthy AI</p>
-  </header>
-
-  <nav>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#publications">Publications</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section class="hero">
-    <h2>Building Trust in Decentralized AI</h2>
-    <p>
-      FedTrust.ai is the academic gateway of Professor Yang Li’s research on Federated Learning, Zero-Trust Architecture, and Trustworthy AI for Power and Energy Systems. His work spans secure and privacy-preserving AI—such as verifiable federated learning for wind power data imputation—to large-scale optimization and stability assessment of energy systems. With a focus on practical deployment, Prof. Li's research bridges cutting-edge AI techniques and real-world challenges in resilient and secure cyber-physical energy infrastructures.
-    </p>
-    <a class="cta-button" href="#publications">Explore Publications</a>
-  </section>
-
-  <footer>
-    &copy; 2025 FedTrust.ai | Powered by Yang Li Research Group
-  </footer>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#home" aria-label="FedTrust.ai home">FedTrust<span>.ai</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#publications">Publications</a><a href="#framework">Framework</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero wrap" id="home" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">An academic research agenda</p>
+    <h1 id="hero-title">Trustworthy Federated AI for <span>Resilient Energy Systems</span></h1>
+    <p class="lead">How can energy systems learn together when data must remain local and participants cannot be trusted by default?</p>
+    <p class="intro">FedTrust.ai brings together research on collaborative learning, privacy protection and robustness for cyber-physical energy systems.</p>
+    <a class="button" href="#publications">Explore the research <span aria-hidden="true">↗</span></a>
+  </div>
+  <aside class="research-lens" aria-labelledby="lens-title">
+    <p class="eyebrow" id="lens-title">The research question</p>
+    <h2>What makes shared<br>learning trustworthy?</h2>
+    <dl>
+      <div><dt><span>01</span> Privacy</dt><dd>What can a shared model reveal?</dd></div>
+      <div><dt><span>02</span> Robustness</dt><dd>Which updates should influence it?</dd></div>
+      <div><dt><span>03</span> Energy-system value</dt><dd>How does learning support reliable decisions?</dd></div>
+    </dl>
+    <p class="lens-note">Distinct questions. Explicit assumptions.<br>Evidence tied to each task.</p>
+  </aside>
+  <div class="byline" id="team"><span class="label">Academic lead</span><p><a href="https://meyangli.com/">Prof. Yang Li</a><span>School of Electrical Engineering · Northeast Electric Power University</span></p></div>
+</section>
+<section class="vision band" aria-labelledby="vision-title">
+  <div class="wrap section-grid">
+    <div><p class="eyebrow">Research vision</p><h2 id="vision-title">Collaboration with<br>accountable trust.</h2></div>
+    <div><p class="large-copy">Energy data are distributed across organisations, assets and operating conditions. Sharing model updates can enable collaboration, but keeping raw data local is only a starting point.</p><p>Our research connects task-specific learning with explicit privacy mechanisms and checks on unreliable updates. The longer-term goal is to understand how these methods can support dependable sensing, forecasting and decisions under disruption.</p></div>
+  </div>
+</section>
+<section class="wrap section" id="research" aria-labelledby="themes-title">
+  <div class="section-heading"><div><p class="eyebrow">01 / Research themes</p><h2 id="themes-title">From local data to shared intelligence.</h2></div><p>Four connected lines of enquiry, grounded in published work.</p></div>
+  <div class="themes">
+    <article class="theme"><span class="theme-num">01</span><h3>Privacy-preserving collaboration</h3><p>Learn across renewable-energy sites without pooling raw measurements. Separate data locality from additional protections for exchanged parameters.</p><a href="#paper-forecast">FedDRL · Wind power forecasting <span aria-hidden="true">↗</span></a></article>
+    <article class="theme"><span class="theme-num">02</span><h3>Robust learning with unreliable data</h3><p>Combine missing-data reconstruction with verifiable privacy mechanisms and trust-aware aggregation to address anomalous client updates.</p><a href="#paper-ztfed">ZTFed-MAS2S · Wind data imputation <span aria-hidden="true">↗</span></a></article>
+    <article class="theme"><span class="theme-num">03</span><h3>Distributed cyber-threat detection</h3><p>Train collaborative detectors for false data injection attacks, pairing Transformer models with Paillier encryption in federated learning.</p><a href="#paper-fdia">Secure federated learning · FDIA detection <span aria-hidden="true">↗</span></a></article>
+    <article class="theme"><span class="theme-num">04</span><h3>Federated energy decision-making</h3><p>Share learning across microgrids using multiagent reinforcement learning and physics-informed rewards for cost and energy self-sufficiency.</p><a href="#paper-madrl">F-MADRL · Multimicrogrid management <span aria-hidden="true">↗</span></a></article>
+  </div>
+</section>
+<section class="publications band" id="publications" aria-labelledby="pub-title">
+  <div class="wrap section">
+    <div class="section-heading"><div><p class="eyebrow">02 / Selected publications</p><h2 id="pub-title">Evidence behind the agenda.</h2></div><p>Four journal articles connecting federated methods to energy-system tasks.</p></div>
+    <article class="publication" id="paper-ztfed">
+      <div class="pub-year">2026<span>Published</span></div>
+      <div class="pub-body"><p class="pub-tag">Data imputation · Verifiable privacy · Trust-aware aggregation</p><h3>ZTFed-MAS2S: A Zero-Trust Federated Learning Framework With Verifiable Privacy and Trust-Aware Aggregation for Wind Power Data Imputation</h3><p class="authors">Yang Li, Hanjie Wang, Yuanzheng Li, Jiazheng Li, Zhaoyang Dong.</p><p class="venue"><cite>IEEE Transactions on Industrial Informatics</cite>, 22(1), 165–175.</p><p class="contribution">Combines attention-based sequence-to-sequence imputation with verifiable differential privacy, parameter-transmission checks and dynamic trust-aware aggregation, evaluated on wind-farm datasets.</p><div class="pub-links"><a href="https://doi.org/10.1109/TII.2025.3609075">DOI: 10.1109/TII.2025.3609075 <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2508.18318">Author preprint <span aria-hidden="true">↗</span></a></div></div>
+    </article>
+    <article class="publication" id="paper-madrl">
+      <div class="pub-year">2024<span>Published</span></div>
+      <div class="pub-body"><p class="pub-tag">Federated reinforcement learning · Energy management</p><h3>Federated Multiagent Deep Reinforcement Learning Approach via Physics-Informed Reward for Multimicrogrid Energy Management</h3><p class="authors">Yuanzheng Li, Shangyang He, Yang Li, Yang Shi, Zhigang Zeng.</p><p class="venue"><cite>IEEE Transactions on Neural Networks and Learning Systems</cite>, 35(5), 5902–5914.</p><p class="contribution">Shares agent parameters across microgrids while retaining local operational data, using physics-informed rewards to address operating cost and energy self-sufficiency.</p><div class="pub-links"><a href="https://doi.org/10.1109/TNNLS.2022.3232630">DOI: 10.1109/TNNLS.2022.3232630 <span aria-hidden="true">↗</span></a></div></div>
+    </article>
+    <article class="publication" id="paper-forecast">
+      <div class="pub-year">2023<span>Published</span></div>
+      <div class="pub-body"><p class="pub-tag">Collaborative forecasting · Local data retention</p><h3>Wind power forecasting considering data privacy protection: A federated deep reinforcement learning approach</h3><p class="authors">Yang Li, Ruinong Wang, Yuanzheng Li, Meng Zhang, Chao Long.</p><p class="venue"><cite>Applied Energy</cite>, 329, 120291.</p><p class="contribution">Integrates DDPG-based forecasting with federated parameter sharing for ultra-short-term wind prediction, enabling collaboration without centralising raw wind-farm data.</p><div class="pub-links"><a href="https://doi.org/10.1016/j.apenergy.2022.120291">DOI: 10.1016/j.apenergy.2022.120291 <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2211.02674">Author preprint <span aria-hidden="true">↗</span></a></div></div>
+    </article>
+    <article class="publication" id="paper-fdia">
+      <div class="pub-year">2022<span>Published</span></div>
+      <div class="pub-body"><p class="pub-tag">False data injection · Encrypted federated learning</p><h3>Detection of False Data Injection Attacks in Smart Grid: A Secure Federated Deep Learning Approach</h3><p class="authors">Yang Li, Xinhao Wei, Yuanzheng Li, Zhaoyang Dong, Mohammad Shahidehpour.</p><p class="venue"><cite>IEEE Transactions on Smart Grid</cite>, 13(6), 4862–4872.</p><p class="contribution">Couples Transformer-based detectors with federated learning and the Paillier cryptosystem, evaluating collaborative attack detection on IEEE 14-bus and 118-bus test systems.</p><div class="pub-links"><a href="https://doi.org/10.1109/TSG.2022.3204796">DOI: 10.1109/TSG.2022.3204796 <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2209.00778">Author preprint <span aria-hidden="true">↗</span></a></div></div>
+    </article>
+    <p class="publication-note">Publication years refer to the journal volume. Preprints are linked separately from the published versions.</p>
+  </div>
+</section>
+<section class="wrap section" id="framework" aria-labelledby="framework-title">
+  <span id="projects" class="anchor-alias" aria-hidden="true"></span>
+  <div class="section-heading"><div><p class="eyebrow">03 / Research framework</p><h2 id="framework-title">Connect the method to the task.</h2></div><p>A conceptual map of the research, with system-level resilience as a continuing goal.</p></div>
+  <div class="framework-map" role="group" aria-label="Published methods and tasks mapped to future resilience questions">
+    <div class="map-head"><span>Published method</span><span>Evaluated task</span><span>Resilience question to pursue</span></div>
+    <div class="map-row"><div><a href="#paper-fdia">Transformer + encrypted FL</a><small>Paillier-protected collaboration</small></div><div>False data injection detection<small>IEEE test systems</small></div><div>Can reliable detection improve timely operational response?</div></div>
+    <div class="map-row"><div><a href="#paper-ztfed">ZTFed-MAS2S</a><small>Privacy verification + trust-aware aggregation</small></div><div>Missing wind-data reconstruction<small>Wind-farm datasets</small></div><div>Can robust reconstruction sustain downstream decisions during data loss?</div></div>
+    <div class="map-row"><div><a href="#paper-forecast">FedDRL</a> / <a href="#paper-madrl">F-MADRL</a><small>Federated prediction / agent learning</small></div><div>Forecasting / energy management<small>Separate task-specific studies</small></div><div>How should uncertainty and physical constraints inform decisions under disruption?</div></div>
+  </div>
+  <div class="framework-foot"><p><strong>Evidence boundary.</strong> These studies provide task-level experimental evidence. They do not establish an integrated operational platform or field-deployed grid resilience.</p><p><strong>Future direction.</strong> Evaluate how privacy, robustness and model utility interact with physical constraints and resilience outcomes across sensing, prediction and decision-making.</p></div>
+  <div class="distinctions"><h3>Different mechanisms, different guarantees.</h3><p>Local data retention limits raw-data sharing; encryption protects specified computations or exchanges; differential privacy bounds disclosure under a defined mechanism; robust aggregation addresses unreliable updates. Their assumptions and guarantees must be assessed separately.</p></div>
+</section>
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact-inner"><div><p class="eyebrow">04 / Academic contact</p><h2 id="contact-title">Let’s connect on<br>trustworthy energy intelligence.</h2></div><div class="contact-details"><h3>Prof. Yang Li</h3><p>School of Electrical Engineering<br>Northeast Electric Power University<br>Jilin, China</p><a class="email" href="mailto:liyang@neepu.edu.cn">liyang@neepu.edu.cn <span aria-hidden="true">↗</span></a><a href="https://meyangli.com/">Full academic profile <span aria-hidden="true">↗</span></a></div></div>
+</section>
+</main>
+<footer class="wrap footer"><p>© 2026 FedTrust.ai · An academic research initiative led by Yang Li.</p><p>Independent of the <a href="https://cpesresilience.org/">IEEE PES EICC Task Force website</a>.</p></footer>
 </body>
 </html>
